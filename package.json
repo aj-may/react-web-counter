@@ -1,0 +1,11 @@
+{
+  "name": "react-web-counter-project",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --recursive --parallel --filter react-web-counter* --filter with-next dev"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  },
+  "packageManager": "pnpm@7.24.3"
+}

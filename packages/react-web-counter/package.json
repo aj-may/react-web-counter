@@ -1,0 +1,32 @@
+{
+  "name": "react-web-counter",
+  "version": "1.0.0",
+  "description": "A groovy library to add a retro web counter to your modern react websites",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "counter",
+    "react",
+    "hook",
+    "retro"
+  ],
+  "author": "AJ May",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/create-react-app": "^1.0.3",
+    "@types/react": "^18.0.28",
+    "tsup": "^6.6.3",
+    "typescript": "4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.28.0"
+  }
+}
